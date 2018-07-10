@@ -33,3 +33,6 @@ def snell_angle(incoming_angle, velocity_top, velocity_bottom):
         raise ValueError('Top layer velocity can not be zero.')
     sin_of_outgoing_ray = np.sin(np.radians(incoming_angle)) * (velocity_bottom / velocity_top)
     return np.degrees(np.arcsin(sin_of_outgoing_ray))
+
+#def untested_function(bogus_input):
+#    if bogus_input: return 0
